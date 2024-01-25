@@ -2,11 +2,14 @@ import './App.css';
 import Featuresdata from './components/Featuresdata';
 // import Logo from './Logo';
 
+import Navbar from './components/Navbar';
+import Hero_section from './components/Hero_section';
 
 function App() {
   return (
     <>
-
+  <Navbar/>
+   <Hero_section/>
 {/* <Logo/> */}
 <Featuresdata/>
 
