@@ -109,6 +109,15 @@ width: 42px;
 height: 42px;
   }
 
+  .logoos{
+display: flex;
+width: 90px;
+height: 27px;
+padding-right: 0.111px;
+justify-content: center;
+align-items: center;
+}
+
   .Fast{
     align-self: stretch;
     color: #2D2D2D;
@@ -169,6 +178,7 @@ flex-shrink: 0;
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
 .nav_container{
 display: flex;
 padding: 20px 50px;
