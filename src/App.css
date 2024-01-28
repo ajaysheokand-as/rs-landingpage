@@ -169,6 +169,7 @@ flex-shrink: 0;
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
 .nav_container{
 display: flex;
 padding: 20px 50px;
@@ -210,18 +211,18 @@ line-height: 130%;
   display: flex;
 justify-content: flex-end;
 align-items: center;
-gap: 50px;
+/* gap: 20px; */
 /* padding-left: 600px; */
 }
 .nav_contact_button{
 
 display: flex;
 height: 30px;
-justify-content: center;
+/* justify-content: center; */
 align-items: center;
-gap: 8px;
-
-border-radius: 20px;
+/* gap: 8px; */
+margin-right: 25px;
+/* border-radius: 20px; */
 }
 .button_class{
 display: flex;
@@ -230,9 +231,33 @@ padding: 16px 50px;
 justify-content: center;
 align-items: center;
 gap: 8px;
+border: none;
 border-radius: 20px;
 background: #E5F4F2;
 }
+
+.bg-dark {
+  /* color: #ffff !important; */
+  background: #009379;
+}
+
+.text-white{
+  color: #ffff !important;
+}
+
+
+
+.button-text{
+  color: #009379;
+text-align: center;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+}
+
 .title_logo{
   display: flex;
 align-items: center;
@@ -311,7 +336,7 @@ stroke: #009379;
 .rocket_button{
   display: flex;
 height: 60px;
-padding: 16px 50px;
+padding: 16px 25px;
 justify-content: center;
 align-items: center;
 gap: 8px;

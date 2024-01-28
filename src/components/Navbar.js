@@ -1,5 +1,7 @@
 import React from 'react'
-import Button from './Button'
+import Button from './Button';
+import RocketLaunch from "../data/RocketLaunch.png"
+
 
 const Navbar = () => {
   return (
@@ -21,10 +23,10 @@ const Navbar = () => {
 
     </div>
      <div>
-     <Button title='How it Works'/>
+     <Button title='How it Works'  bg="light"/>
      </div>
      <div>
-     <Button title='Get Started'/>
+     <Button title='Get Started' icon={RocketLaunch} bg="dark"/>
      </div>
       
 
