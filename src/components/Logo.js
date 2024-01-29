@@ -17,6 +17,7 @@ const Logo = () => {
 <div className='logobar'>
 
     <div className='logos'>
+        
       <Logobar  img ={image1}/>
       <Logobar img ={image2} />
       <Logobar  img ={image3} />
