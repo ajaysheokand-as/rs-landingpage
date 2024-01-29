@@ -10,6 +10,9 @@ import Logo from './components/Logo';
 import Highlighted from './components/Highlighted';
 import Metrices from './components/Metrices';
 import Testmonials from './components/Testmonials';
+import Pricing from './components/Pricing';
+import { Pricingdata } from './data/Data';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -19,12 +22,8 @@ function App() {
       <Logo />
       <Featuresdata />
       <Highlighted/>
-  {/* <Navbar/>
-   <Hero_section/> */}
-
-<Featuresdata/>
-<Metrices Data={title}/>
-<Testmonials/>
+      <Pricing data ={Pricingdata}/>
+      <Team/>
 
 
 
