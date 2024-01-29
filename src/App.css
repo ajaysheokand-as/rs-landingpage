@@ -5,7 +5,7 @@
 
 .features{
   display: flex;
-  width: 1280px;
+  /* width: 1280px; */
   padding: 120px 55px;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,7 @@
 
   .logobar{
 display: flex;
-width: 1280px;
+/* width: 1280px; */
 padding: 60px 55px;
 flex-direction: column;
 align-items: center;
@@ -265,7 +265,7 @@ gap: 6px;
 }
 .hero_container{
   display: flex;
-width: 1280px;
+/* width: 1280px; */
 padding: 120px 55px;
 justify-content: space-between;
 align-items: center;
@@ -345,4 +345,215 @@ gap: 8px;
   width: 20px;
 height: 20px;
 flex-shrink: 0;
+}
+.mat_container{
+  display: flex;
+/* width: 1280px; */
+padding: 120px 55px;
+flex-direction: column;
+align-items: center;
+gap: 60px;
+background: var(--Neutral---Zircon, #F8F9FF);
+}
+
+.mat_inner_container{
+
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+}
+.mat_inner_div{
+  color: #000;
+text-align: center;
+
+/* Display M */
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 49.4px */
+letter-spacing: -0.76px;
+}
+.mat_inner_second_div{
+  color: #2D2D2D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 20.8px */
+align-self: stretch;
+}
+.mat_inner_map{
+  display: flex;
+padding: 48px 16px;
+flex-direction: column;
+align-items: center;
+gap: 5px;
+flex: 1 0 0;
+
+border-radius: 20px 20px 0px 0px;
+border-bottom: 4px solid var(--Accent---Mandys-Pink, #F2BFAF);
+background: var(--White, #FFF);
+box-shadow: 34.854px 29.626px 48.34px 0px rgba(51, 102, 255, 0.05);
+}
+.mat_inner_map_first{
+  align-self: stretch;
+  color: #2D2D2D;
+
+text-align: center;
+/* Display M */
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 49.4px */
+letter-spacing: -0.76px;
+}
+.mat_inner_map_second{
+  align-self: stretch;
+  color: #2D2D2D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 20.8px */
+}
+.bigb{
+  display: flex;
+width: 1170px;
+align-items: flex-start;
+gap: 30px;
+}
+.testo_main_container{
+  display: flex;
+/* width: 1280px; */
+padding: 120px 55px;
+flex-direction: column;
+align-items: center;
+gap: 60px;
+}
+.testo_heading{
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+}
+.testo_title1
+{
+  align-self: stretch;
+  color: #000;
+text-align: center;
+
+/* Display M */
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 49.4px */
+letter-spacing: -0.76px;
+}
+.testo_title2{
+  align-self: stretch;
+  color: #2D2D2D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 20.8px */
+}
+.testo_main_map{
+  display: flex;
+width: 1200px;
+justify-content: center;
+align-items: flex-start;
+gap: 30px;
+}
+.testo_card{
+  display: flex;
+padding: 40px 30px;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+flex: 1 0 0;
+border-radius: 20px;
+border: 1px solid var(--CTA---Aqua-Squeeze, #E5F4F2);
+background: #FFF;
+box-shadow: 34.854px 29.626px 48.34px 0px rgba(51, 102, 255, 0.05);
+}
+.testo_inner_card{
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+align-self: stretch;
+}
+.testo_iner_iner_card{
+
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+}
+.testo_pic{
+  width: 56px;
+height: 56px;
+border-radius: 56px;
+background: lightgray 0px -8.995px / 100% 149.982% no-repeat;
+}
+.testo_iner_card_text1{
+  align-self: stretch;
+  color: var(--Neutral-900, #111827);
+text-align: center;
+
+/* Display XS */
+font-family: Poppins;
+font-size: 21px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 27.3px */
+}
+.testo_iner_card_text2{
+
+  align-self: stretch;
+  color: var(--Neutral-700, #374151);
+text-align: center;
+
+/* Body S */
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 22.4px */
+}
+.testo_iner_card_text3{
+  align-self: stretch;
+  color: #2D2D2D;
+text-align: center;
+
+/* Body M */
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+.star_div{
+
+  display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 5px;
+align-self: stretch;
+}
+.star_pro{
+  width: 24px;
+height: 23.085px;
 }
