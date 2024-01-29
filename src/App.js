@@ -19,8 +19,8 @@ function App() {
       <Logo />
       <Featuresdata />
       <Highlighted/>
-  <Navbar/>
-   <Hero_section/>
+  {/* <Navbar/>
+   <Hero_section/> */}
 
 <Featuresdata/>
 <Metrices Data={title}/>
