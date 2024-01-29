@@ -6,12 +6,19 @@ import{title} from './data/Data'
 
 import Navbar from './components/Navbar';
 import Hero_section from './components/Hero_section';
+import Logo from './components/Logo';
+import Highlighted from './components/Highlighted';
 import Metrices from './components/Metrices';
 import Testmonials from './components/Testmonials';
 
 function App() {
   return (
     <>
+      <Navbar />
+      <Hero_section />
+      <Logo />
+      <Featuresdata />
+      <Highlighted/>
   <Navbar/>
    <Hero_section/>
 
@@ -20,7 +27,7 @@ function App() {
 <Testmonials/>
 
 
-     
+
     </>
   );
 }
