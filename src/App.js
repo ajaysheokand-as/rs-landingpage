@@ -22,6 +22,8 @@ function App() {
       <Logo />
       <Featuresdata />
       <Highlighted/>
+      <Metrices/>
+      <Testmonials/>
       <Pricing data ={Pricingdata}/>
       <Team/>
 
