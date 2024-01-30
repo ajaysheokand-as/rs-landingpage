@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import RocketLaunch from "../data/RocketLaunch.png"
 
 const Hero_section = () => {
     return (
@@ -12,7 +13,7 @@ const Hero_section = () => {
                 Build beautiful landing pages in record time with<span className='hero_span'> Anima’s</span> Landing Page<br></br> UI kit for Figma. No code required!
                 </div>
                 <div className='left_hero_button'>
-                <Button title='Get Started'/>
+                <Button title='Get Started' bg="dark" icon={RocketLaunch}/>
                 <Button title='How it Works'/>
                 </div>
             </div>
