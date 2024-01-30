@@ -10,6 +10,8 @@ import Logo from './components/Logo';
 import Highlighted from './components/Highlighted';
 import Metrices from './components/Metrices';
 import Testmonials from './components/Testmonials';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,13 +21,13 @@ function App() {
       <Logo />
       <Featuresdata />
       <Highlighted/>
-  {/* <Navbar/>
-   <Hero_section/> */}
+ 
 
 <Featuresdata/>
 <Metrices Data={title}/>
 <Testmonials/>
-
+<Contact/>
+<Footer/>
 
 
     </>
