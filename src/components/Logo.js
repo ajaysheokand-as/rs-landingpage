@@ -1,8 +1,10 @@
 import React from 'react'
 import Logobar from './Logobar'
+import image1 from '../image/_Client logo (1).png'
+import image2 from '../image/_Client logo (2).png'
+import image3 from '../image/_Client logo (3).png'
 import image4 from '../image/_Client logo (4).png'
 import image5 from '../image/_Client logo (5).png'
-
 
 
 
