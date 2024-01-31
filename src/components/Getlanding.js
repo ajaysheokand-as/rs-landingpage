@@ -3,8 +3,6 @@ import React from 'react'
 export const Getlanding = () => {
     return (
         <>
-
-
                 <div className='get_landing'>
                     <div className='get_landing_p'>
 
