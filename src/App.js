@@ -10,9 +10,8 @@ import Logo from './components/Logo';
 import Highlighted from './components/Highlighted';
 import Metrices from './components/Metrices';
 import Testmonials from './components/Testmonials';
-import Pricing from './components/Pricing';
-import { Pricingdata } from './data/Data';
-import Team from './components/Team';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,10 +21,16 @@ function App() {
       <Logo />
       <Featuresdata />
       <Highlighted/>
+ 
+
+<Featuresdata/>
+<Metrices Data={title}/>
+<Testmonials/>
+<Contact/>
+<Footer/>
       
       <Pricing data ={Pricingdata}/>
       <Team/>
-
 
 
     </>
