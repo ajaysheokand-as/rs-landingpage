@@ -197,6 +197,228 @@ border-radius: 401.374px; */
   line-height: 150%; /* 31.5px */
 }
 
+.pricingstart{
+display: flex;
+width: 100%;
+padding: 120px 55px;
+flex-direction: column;
+align-items: center;
+gap: 60px;
+}
+
+.headlineFullDiv{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+}
+
+.pricingtext{
+  color: #000;
+text-align: center;
+
+/* Display M */
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 49.4px */
+letter-spacing: -0.76px;
+}
+
+.pricingtext2{
+color: #2D2D2D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 20.8px */
+}
+
+
+.CardsRowpricing{
+display: flex;
+align-items: flex-start;
+gap: 30px;
+}
+
+
+.PrcingCard{
+display: flex; 
+width: 370px;
+padding: 40px 30px;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+border-radius: 20px;
+border: 1px solid var(--Neutral---Zircon, #F8F9FF);
+background: #FFF;
+box-shadow: 34.854px 29.626px 48.34px 0px rgba(51, 102, 255, 0.05);
+}
+
+
+.Pricingdollor{
+display: flex;
+align-items: baseline;
+gap: 12px;
+align-self: stretch;
+}
+
+.dollor{
+  color: #2D2D2D;
+
+/* Display L */
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 65px */
+letter-spacing: -1px;
+}
+
+.months{
+  flex: 1 0 0;
+  color: #3B3B3B;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 25.6px */
+}
+
+.Bestfor{
+  align-self: stretch;
+  color: #2D2D2D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+}
+
+.writefuture{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+}
+
+.testpage{
+display: flex;
+width: 100%;
+padding: 120px 55px;
+flex-direction: column;
+align-items: flex-start;
+gap: 60px;
+}
+
+.Teamimg{
+display: flex;
+align-items: flex-start;
+gap: 30px;
+}
+
+.Imghere{
+display: flex;
+width: 370px;
+padding-bottom: 30px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+border-radius: 20px;
+background: #FFF;
+box-shadow: 34.854px 29.626px 48.34px 0px rgba(51, 102, 255, 0.05);
+}
+
+
+.starttest{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+}
+
+.ourteam{
+  color: #000;
+text-align: center;
+
+/* Display M */
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 49.4px */
+letter-spacing: -0.76px;
+}
+
+
+.Gettoknow{
+  color: #2D2D2D;
+text-align: center;
+
+/* Body M */
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+
+.right{
+width: 20px;
+height: 20px;
+}
+
+.Writehere{
+  color: #2D2D2D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 20.8px */
+}
+
+
+.pricingbutton{
+display: flex;
+height: 60px;
+padding: 16px 50px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+border-radius: 20px;
+background: #E5F4F2;
+}
+
+.getstarted{
+  color: #009379;
+text-align: center;
+font-feature-settings: 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+}
+
+.Free{
+  align-self: stretch;
+  color: #2D2D2D;
+
+/* Body L */
+font-family: Mulish;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 31.5px */
+}
+
 
 .CTATeXT {
   display: flex;

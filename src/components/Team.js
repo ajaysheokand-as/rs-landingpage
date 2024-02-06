@@ -24,7 +24,7 @@ const Team = () => {
         <div className='Teamimg'>
           {teamImages.map((image) => (
             <div  className='Imghere'>
-              <img src={image.src}  className='TeamMemberImage' />
+              <img src={image.src}  />
             </div>
           ))}
         </div>
